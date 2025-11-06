@@ -169,20 +169,3 @@ CSS Animations & Transitions
 Bootstrap Framework
 
 VS Code + Live Server
-
-
-
-
-
-
-
-💻 Project Tasks Overview
-Date	    Topic	                            Task
-9 Oct	     HTML                     Basics	Create a timetable
-10 Oct	   HTML                     Elements	Create forms & dropdowns
-13 Oct	   CSS Basics	              Design webpage with styles
-30 Oct	   CSS Grid	                Calculator Layout
-31 Oct	   Animation	              Moving element animation
-3 Nov	     Responsive CSS	          Responsive Card UI
-5 Nov	     Bootstrap Basics	        Portfolio Webpage
-6 Nov	     Bootstrap Advanced	      Responsive Portfolio Update
