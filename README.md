@@ -211,3 +211,43 @@ Loops (for, while, do...while)
 Math in JavaScript
 
 Using the built-in Math object for calculations.
+
+
+📘 JavaScript Session – 12 November 2025
+
+🧠 Topics Covered:
+
+In today’s session, we explored Scope, Events, Strings, and Arrays in JavaScript.
+The session focused on understanding how JavaScript:
+
+Manages variable visibility and scope (global, local, and block-level)
+
+Handles user interactions through events
+
+Performs string manipulation for dynamic text operations
+
+Works with arrays for storing and processing multiple data values
+
+Uses mathematical operations and built-in functions effectively
+
+💻 Key Learning Outcomes:
+
+Gained clarity on the concept of scope in JavaScript and how it affects variable access.
+
+Implemented event listeners to respond to user actions like clicks and input changes.
+
+Practiced manipulating strings and arrays using built-in JavaScript methods.
+
+Enhanced problem-solving skills by writing practical code examples.
+
+📝 Task for Practice:
+
+> Create a JavaScript program that:
+
+> Takes user input as a string.
+
+> Splits it into an array.
+
+> Displays both the original string and the array result on a webpage.
+
+> Uses events to trigger the display dynamically.
