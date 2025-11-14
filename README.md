@@ -251,3 +251,68 @@ Enhanced problem-solving skills by writing practical code examples.
 > Displays both the original string and the array result on a webpage.
 
 > Uses events to trigger the display dynamically.
+
+
+📘 JavaScript Session Summary — 13 November 2025
+Topics Covered
+
+In today’s session, we explored important JavaScript ES features and practical DOM-based implementations. The major concepts covered include:
+
+🔹 1. DOM (Document Object Model)
+
+Understanding how JavaScript interacts with HTML elements.
+
+Selecting, modifying, creating, and deleting elements dynamically.
+
+Handling DOM properties and methods to change webpage content.
+
+🔹 2. Hoisting
+
+How variable and function declarations are moved to the top of their scope.
+
+Difference between hoisting behavior of var, let, const, and functions.
+
+🔹 3. Functions
+
+Revisiting normal function declarations and function expressions.
+
+Understanding parameters, return values, and scope behavior inside functions.
+
+🔹 4. Arrow Functions
+
+Introduction to modern ES6 arrow function syntax.
+
+Differences between normal functions and arrow functions (such as this binding).
+
+When to use arrow functions for cleaner code.
+
+
+
+🚀 Practical Implementation
+
+
+✔️ Counter Application (Using DOM)
+
+You built an interactive counter app implementing:
+
+> DOM selectors
+
+> Event listeners
+
+> Increment, decrement, and reset logic
+
+> Real-time UI updates
+
+> This helped clarify how DOM manipulation works in real applications.
+
+
+✔️ Image Resize Application
+
+
+> Using DOM properties and event handling, you implemented:
+
+> Increasing and decreasing image size dynamically
+
+> Using buttons and event listeners
+
+> Applying inline styles with JavaScript
