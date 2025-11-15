@@ -316,3 +316,4 @@ You built an interactive counter app implementing:
 > Using buttons and event listeners
 
 > Applying inline styles with JavaScript
+
