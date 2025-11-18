@@ -316,3 +316,57 @@ You built an interactive counter app implementing:
 > Using buttons and event listeners
 
 > Applying inline styles with JavaScript
+
+
+📘 JavaScript Session Summary — 18 November 2025
+Topics Covered
+
+In today’s session, we explored key concepts in Modern JavaScript, focusing on:
+
+🔹 1. ES6 Classes
+
+Understanding class structure in JavaScript
+
+Working with constructors, properties, and methods
+
+Using extends for inheritance
+
+Differences between ES6 classes and traditional constructor functions
+
+🔹 2. Objects in JavaScript
+
+Creating and manipulating objects
+
+Object properties, methods, and nested objects
+
+Using shorthand syntax and modern object features
+
+Understanding the relationship between classes and objects
+
+
+🔹 3. Recap: Hoisting & Functions
+
+
+A quick revision of:
+
+> How hoisting affects variable and function declarations
+
+> Differences between var, let, and const
+
+> Function declarations vs function expressions
+
+> Arrow functions and their behavior
+
+🛠️ Practical Task
+
+✔️ Hamburger Icon + Responsive Sidebar Menu
+
+We practiced:
+
+> Building a hamburger menu icon using HTML + CSS
+
+> Applying media queries for responsiveness
+
+> Showing and hiding a sidebar using JavaScript events
+
+> Understanding how UI components adapt to different screen sizes
