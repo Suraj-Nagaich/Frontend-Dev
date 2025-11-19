@@ -318,7 +318,7 @@ You built an interactive counter app implementing:
 > Applying inline styles with JavaScript
 
 
-📘 JavaScript Session Summary — 18 November 2025
+📘 JavaScript Session Summary — 17 November 2025
 Topics Covered
 
 In today’s session, we explored key concepts in Modern JavaScript, focusing on:
@@ -370,3 +370,91 @@ We practiced:
 > Showing and hiding a sidebar using JavaScript events
 
 > Understanding how UI components adapt to different screen sizes
+
+
+📅 19 November – JavaScript Session Summary & Task
+
+
+✅ Topics Covered Today
+
+
+In today’s session, we explored multiple essential JavaScript concepts that are crucial for modern web development:
+
+🔸 Objects
+
+> Understanding object creation
+
+> Accessing & modifying properties
+
+> Nested objects
+
+🔸 Forms & RegExp Validation
+
+> Handling form inputs
+
+> Validating user data using Regular Expressions
+
+> Preventing form submission on invalid input
+
+🔸 Functions (Basic → Advanced)
+
+> Function declarations & expressions
+
+> Arrow functions
+
+> Constructor functions
+
+> Prototypes
+
+> OOP concepts in JavaScript
+
+🔸 Asynchronous JavaScript
+
+> Event Loop
+
+> Callbacks
+
+> Promises
+
+> Async/Await
+
+> Understanding execution flow
+
+📝 Task for Today
+
+🎯 Goal: Create a Form & Display Form Data on Webpage
+
+Using only HTML + CSS + JavaScript, complete the following task:
+
+📌 Requirements
+
+Create an input form with fields such as:
+
+Name
+
+Email
+
+Phone
+
+Age
+
+Any additional fields you prefer
+
+On form submission:
+
+Prevent default refresh
+
+Collect all data from inputs
+
+Display the submitted data directly on the webpage (not using alerts)
+
+Use DOM Manipulation to display the data neatly:
+
+Create elements dynamically
+
+Insert text values
+
+Style the output section
+
+No libraries or frameworks allowed
+Only pure JavaScript (vanilla JS) must be used
