@@ -458,3 +458,65 @@ Style the output section
 
 No libraries or frameworks allowed
 Only pure JavaScript (vanilla JS) must be used
+
+
+
+📅 20 November – JavaScript (AJAX, jQuery & Fetch API) Session Summary
+
+
+✅ Topics Covered Today
+
+In today’s session, we focused on working with asynchronous data retrieval and DOM manipulation using modern and traditional approaches. The key topics included:
+
+🔹 AJAX & jQuery
+
+> Understanding AJAX workflow
+
+> jQuery syntax
+
+> jQuery selectors
+
+> Event handling with jQuery
+
+> jQuery-based DOM manipulation
+
+> Making AJAX requests using jQuery
+
+🔹 Fetch API
+
+
+> Introduction to the Fetch API
+
+> How Fetch works (request → response → promise handling)
+
+> Using .then() and .catch()
+
+> Converting API response to JSON
+
+> Dynamically inserting retrieved data into the webpage
+
+
+📝 Today’s Task
+
+
+🎯 Task: Fetch Data & Display It on the Webpage
+
+
+Your goal is to build a simple webpage that:
+
+Uses the Fetch API to retrieve data from any public API endpoint
+(example: https://jsonplaceholder.typicode.com/users
+)
+
+> Parses the JSON response.
+
+> Dynamically displays the fetched data on the webpage using:
+
+> DOM manipulation
+
+> Template literals
+
+> Append/insert methods
+
+> Do NOT use alerts.
+Data must appear visually on the page.
