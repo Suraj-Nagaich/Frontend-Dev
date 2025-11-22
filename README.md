@@ -520,3 +520,61 @@ Uses the Fetch API to retrieve data from any public API endpoint
 
 > Do NOT use alerts.
 Data must appear visually on the page.
+
+
+📘 Web Development Session Summary — 21 November 2025
+
+Topics Covered
+
+In today’s session, we explored AJAX and jQuery, along with modern JavaScript techniques for working with APIs and dynamic content.
+
+🔹 1. AJAX (Asynchronous JavaScript and XML)
+
+Understanding how AJAX enables asynchronous communication
+
+Loading data without refreshing the page
+
+How modern APIs use JSON instead of XML
+
+🔹 2. jQuery Basics
+
+> We introduced the power of jQuery and covered:
+
+> jQuery syntax ($('selector').action())
+
+> Selectors for elements, classes, IDs, and attributes
+
+> Event handling (click, hover, key events, etc.)
+
+> DOM manipulation (add, remove, update elements)
+
+> These features make DOM tasks simpler and more concise.
+
+🔹 3. Fetch API
+
+|| We also learned how to use the Fetch API, a modern replacement for AJAX in JavaScript:
+
+|| Sending GET requests
+
+|| Parsing JSON responses
+
+|| Handling Promises (then, catch)
+
+|| Displaying API data on the webpage dynamically
+
+|| This helps build real-time and data-driven interfaces.
+
+
+🛠️ Task for Today
+
+✔️ Use the Fetch API
+
+Your task is to:
+
+> Choose any public API endpoint
+
+> Fetch data using the Fetch API
+
+> Display the received data dynamically on the webpage
+
+> Use simple styling to present it neatly
