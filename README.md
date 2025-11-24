@@ -578,3 +578,70 @@ Your task is to:
 > Display the received data dynamically on the webpage
 
 > Use simple styling to present it neatly
+
+
+
+📘 React – Session Summary (24 November)
+
+
+📝 Topics Covered Today
+
+
+In today’s session, we explored the Introduction to React, focusing on the core building blocks of modern frontend development. The following key concepts were covered:
+
+1️⃣ Virtual DOM
+
+
+> React uses a Virtual DOM to efficiently update the UI.
+
+> Instead of updating the real DOM directly, React creates a virtual copy and updates only the changed parts.
+
+> This makes React applications faster and more performant.
+
+
+2️⃣ Components in React
+
+Components are the heart of React.
+
+> They allow you to break the UI into reusable pieces.
+
+Two types of components:
+
+> Functional Components
+
+> (Class Components exist but are less common now)
+
+
+3️⃣ Functional Components
+
+The most widely used component type.
+
+> Created using JavaScript functions.
+
+> Return JSX (JavaScript XML) which looks like HTML.
+
+> Easier to write, test, and maintain.
+
+
+4️⃣ Passing Data with Props
+
+> Props are used to pass data from parent to child components.
+
+> They make components dynamic and reusable.
+
+> Props are read-only.
+
+
+5️⃣ Introduction to React Router DOM
+
+> Used for navigation in React applications.
+
+> Helps in building multi-page SPA (Single Page Applications).
+
+> Basic components introduced:
+
+> <BrowserRouter>
+
+> <Routes>
+
+> <Route>
