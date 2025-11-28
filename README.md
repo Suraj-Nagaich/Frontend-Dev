@@ -645,3 +645,72 @@ The most widely used component type.
 > <Routes>
 
 > <Route>
+
+
+📘 React Forms & JSON Server — Session Summary
+
+
+📅 Date: 27 November
+
+
+📚 Topic Covered:
+
+React Forms, JSON Server, and API Endpoints (GET & POST Requests)
+
+✅ What We Learned Today
+
+1️⃣ Introduction to React Forms
+
+We learned:
+
+> How to create controlled components
+
+> How to manage form input using useState()
+
+> Handling onChange and onSubmit events
+
+> Binding form inputs to component state
+
+2️⃣ Working with JSON Server
+
+We learned:
+
+> How to install JSON Server
+
+> How to create a db.json file
+
+> How to start JSON Server on a port (example: http://localhost:3000/users)
+
+> How endpoints respond using REST rules
+
+3️⃣ API Requests in React
+
+We explored:
+
+> Fetching data using GET
+
+> Sending new data using POST
+
+> Using fetch() or Axios to interact with the backend
+
+> Rendering backend data inside React UI
+
+📝 Today’s Task
+
+✔ Task: Complete GET and POST Operations in React using JSON Server
+
+Our goals:
+
+1. Implement GET Request
+
+> Fetch data from JSON Server endpoint
+
+> Display it inside your React component (such as a list or table)
+
+2. Implement POST Request
+
+> Create a form with inputs (name, email, etc.)
+
+> On form submission, send data to JSON Server
+
+> Update the UI after data insertion
