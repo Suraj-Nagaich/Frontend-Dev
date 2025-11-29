@@ -1,0 +1,26 @@
+<input id="name">
+<input id="email">
+<input id="pass">
+<button id="reg">Register</button>
+<div id="msg"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+document.getElementById("reg").onclick=function(){
+  let n=document.getElementById("name").value;
+  let e=document.getElementById("email").value;
+  let p=document.getElementById("pass").value;
+
+  axios.get("http://localhost:3006/users?email="+e).then(r=>{
+    if(r.data.length>0){
+      document.getElementById("msg").innerText="Email already registered.";
+      return;
+    }
+    axios.post("http://localhost:3006/users",{
+      name:n,email:e,password:p
+    }).then(()=>{
+      document.getElementById("msg").innerText="Registered.";
+    });
+  });
+};
+</script>

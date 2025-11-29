@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    { "id": 1, "title": "Task A", "priority": "Low", "completed": false },
+    { "id": 2, "title": "Task B", "priority": "Medium", "completed": true },
+    { "id": 3, "title": "Task C", "priority": "Low", "completed": false },
+    { "id": 4, "title": "Task D", "priority": "High", "completed": false },
+    { "id": 5, "title": "Task E", "priority": "Medium", "completed": true }
+  ]
+}

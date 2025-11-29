@@ -1,0 +1,39 @@
+<select id="f">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+<option>Completed</option>
+</select>
+<div id="task"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+function loadData(q=""){
+  $.get("http://localhost:3003/tasks"+q,function(d){
+    let h="";
+    d.forEach(t=>{
+      h+=`<div>
+      <input type="checkbox" data-id="${t.id}" ${t.completed?"checked":""}>
+      ${t.title} - ${t.priority}
+      </div>`;
+    });
+    $("#task").html(h);
+    $("input").click(function(){
+      let id=$(this).data("id");
+      let c=$(this).is(":checked");
+      $.ajax({
+        url:"http://localhost:3003/tasks/"+id,
+        method:"PATCH",
+        data:JSON.stringify({completed:c}),
+        contentType:"application/json"
+      });
+    });
+  });
+}
+loadData();
+$("#f").change(function(){
+  let v=$(this).val();
+  if(v==="Completed") loadData("?completed=true");
+  else loadData("?priority="+v);
+});
+</script>

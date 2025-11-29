@@ -1,0 +1,29 @@
+<div id="box"></div>
+
+<script>
+let box=document.getElementById("box");
+let x=new XMLHttpRequest();
+x.open("GET","http://localhost:3002/employees");
+x.onload=function(){
+  let d=JSON.parse(this.response);
+  let h="";
+  d.forEach(e=>{
+    h+=`<div>
+    ${e.name}
+    <input type="checkbox" data-id="${e.id}" ${e.status==="active"?"checked":""}>
+    </div>`;
+  });
+  box.innerHTML=h;
+  document.querySelectorAll("input").forEach(t=>{
+    t.onclick=function(){
+      let id=this.getAttribute("data-id");
+      let ns=this.checked?"active":"inactive";
+      let y=new XMLHttpRequest();
+      y.open("PATCH","http://localhost:3002/employees/"+id);
+      y.setRequestHeader("Content-Type","application/json");
+      y.send(JSON.stringify({status:ns}));
+    };
+  });
+};
+x.send();
+</script>

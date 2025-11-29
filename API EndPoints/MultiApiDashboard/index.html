@@ -1,0 +1,23 @@
+<div id="u"></div>
+<div id="o"></div>
+<div id="p"></div>
+<div id="w"></div>
+
+<script>
+document.getElementById("u").innerText="...";
+document.getElementById("o").innerText="...";
+document.getElementById("p").innerText="...";
+
+Promise.all([
+  fetch("http://localhost:3004/users"),
+  fetch("http://localhost:3004/orders"),
+  fetch("http://localhost:3004/products")
+]).then(r=>Promise.all(r.map(x=>x.json())))
+.then(d=>{
+  document.getElementById("u").innerText=d[0].length;
+  document.getElementById("o").innerText=d[1].length;
+  document.getElementById("p").innerText=d[2].length;
+}).catch(()=>{
+  document.getElementById("w").innerText="Some data could not be loaded.";
+});
+</script>

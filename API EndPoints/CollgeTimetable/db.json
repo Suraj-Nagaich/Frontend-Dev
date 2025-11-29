@@ -1,0 +1,9 @@
+{
+  "timetable": [
+    { "id": 1, "day": "Monday", "subject": "Math", "faculty": "A", "time": "9 AM" },
+    { "id": 2, "day": "Tuesday", "subject": "Physics", "faculty": "B", "time": "10 AM" },
+    { "id": 3, "day": "Monday", "subject": "Chemistry", "faculty": "C", "time": "11 AM" },
+    { "id": 4, "day": "Wednesday", "subject": "English", "faculty": "D", "time": "1 PM" },
+    { "id": 5, "day": "Friday", "subject": "CS", "faculty": "E", "time": "2 PM" }
+  ]
+}

@@ -1,0 +1,27 @@
+<select id="d">
+<option>Monday</option>
+<option>Tuesday</option>
+<option>Wednesday</option>
+<option>Thursday</option>
+<option>Friday</option>
+</select>
+<div id="out"></div>
+
+<script>
+document.getElementById("d").onchange=function(){
+  let v=this.value;
+  fetch("http://localhost:3005/timetable?day="+v)
+  .then(r=>r.json())
+  .then(d=>{
+    if(d.length===0){
+      document.getElementById("out").innerText="No classes today.";
+      return;
+    }
+    let h="";
+    d.forEach(t=>{
+      h+=`<div>${t.subject} - ${t.faculty} - ${t.time}</div>`;
+    });
+    document.getElementById("out").innerHTML=h;
+  });
+};
+</script>

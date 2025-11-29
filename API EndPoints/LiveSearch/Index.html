@@ -1,0 +1,23 @@
+<input id="search" />
+<div id="load"></div>
+<div id="result"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$("#search").on("keyup",function(){
+  $("#load").text("Loading...");
+  let v=$(this).val();
+  $.get("http://localhost:3001/products?q="+v,function(d){
+    $("#load").text("");
+    if(d.length===0){
+      $("#result").html("No products found");
+      return;
+    }
+    let h="";
+    d.forEach(p=>{
+      h+=`<div><img src="${p.image}" width="60"><h3>${p.name}</h3><p>${p.price}</p></div>`;
+    });
+    $("#result").html(h);
+  });
+});
+</script>
