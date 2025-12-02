@@ -714,3 +714,13 @@ Our goals:
 > On form submission, send data to JSON Server
 
 > Update the UI after data insertion
+
+
+📘 Student Management System – Mini Project
+
+
+📄 Project Overview
+
+
+The Student Management System (SMS) is a mini project designed to practice core React concepts such as components, props, state management, forms, and basic routing.
+This project allows users to add, view, edit, and delete student records in a simple and interactive interface.
